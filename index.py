@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/index.html')
 def hello_world():
     return render_template('index.html',name='name')
-'''
+'''f
 @app.route('/username',method=['POST','GET'])
 def user():
     if method=='GET':
